@@ -15,6 +15,8 @@
 		94A062B51CA381880059B360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A062B31CA381880059B360 /* LaunchScreen.storyboard */; };
 		94A062C01CA381880059B360 /* ChainCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A062BF1CA381880059B360 /* ChainCalculatorTests.m */; };
 		94A062CB1CA381880059B360 /* ChainCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A062CA1CA381880059B360 /* ChainCalculatorUITests.m */; };
+		94A062DA1CA381A90059B360 /* NSObject+ChainCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A062D91CA381A90059B360 /* NSObject+ChainCalculator.m */; };
+		94A062DD1CA381DF0059B360 /* ChainCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A062DC1CA381DF0059B360 /* ChainCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		94A062C61CA381880059B360 /* ChainCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A062CA1CA381880059B360 /* ChainCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainCalculatorUITests.m; sourceTree = "<group>"; };
 		94A062CC1CA381880059B360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A062D81CA381A90059B360 /* NSObject+ChainCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ChainCalculator.h"; sourceTree = "<group>"; };
+		94A062D91CA381A90059B360 /* NSObject+ChainCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ChainCalculator.m"; sourceTree = "<group>"; };
+		94A062DB1CA381DF0059B360 /* ChainCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainCalculator.h; sourceTree = "<group>"; };
+		94A062DC1CA381DF0059B360 /* ChainCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				94A062B31CA381880059B360 /* LaunchScreen.storyboard */,
 				94A062B61CA381880059B360 /* Info.plist */,
 				94A062A51CA381880059B360 /* Supporting Files */,
+				94A062D81CA381A90059B360 /* NSObject+ChainCalculator.h */,
+				94A062D91CA381A90059B360 /* NSObject+ChainCalculator.m */,
+				94A062DB1CA381DF0059B360 /* ChainCalculator.h */,
+				94A062DC1CA381DF0059B360 /* ChainCalculator.m */,
 			);
 			path = ChainCalculator;
 			sourceTree = "<group>";
@@ -271,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				94A062AD1CA381880059B360 /* ViewController.m in Sources */,
+				94A062DD1CA381DF0059B360 /* ChainCalculator.m in Sources */,
+				94A062DA1CA381A90059B360 /* NSObject+ChainCalculator.m in Sources */,
 				94A062AA1CA381880059B360 /* AppDelegate.m in Sources */,
 				94A062A71CA381880059B360 /* main.m in Sources */,
 			);
