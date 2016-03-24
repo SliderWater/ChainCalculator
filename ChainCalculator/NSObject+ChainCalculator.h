@@ -12,6 +12,6 @@
 
 @interface NSObject (ChainCalculator)
 
-+ (int)makeCalculator:(ChainCalculator *(^)(int))maker;
++ (int)makeCalculator:(void (^)(ChainCalculator *))maker;
 
 @end

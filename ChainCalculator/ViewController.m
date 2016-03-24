@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "NSObject+ChainCalculator.h"
+#import "ChainCalculator.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    int number = [NSObject makeCalculator:^(ChainCalculator *calculator) {
+        
+        calculator.add(1).subtract(2).multiply(5).divide(2);
+    }];
+    NSLog(@"%d", number);
 }
 
 - (void)didReceiveMemoryWarning {

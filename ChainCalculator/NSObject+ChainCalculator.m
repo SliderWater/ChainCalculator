@@ -7,7 +7,17 @@
 //
 
 #import "NSObject+ChainCalculator.h"
+#import "ChainCalculator.h"
 
 @implementation NSObject (ChainCalculator)
+
++ (int)makeCalculator:(void (^)(ChainCalculator *))maker {
+    
+    ChainCalculator *calculator = [[ChainCalculator alloc] init];
+    
+    maker(calculator);
+    
+    return calculator.result;
+}
 
 @end

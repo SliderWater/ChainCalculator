@@ -10,6 +10,8 @@
 
 @interface ChainCalculator : NSObject
 
+@property (assign, nonatomic, readonly) int result;/**<结果*/
+
 - (ChainCalculator * (^)(int))add;
 - (ChainCalculator * (^)(int))subtract;
 - (ChainCalculator * (^)(int))multiply;
